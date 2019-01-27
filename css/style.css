@@ -43,9 +43,7 @@ body{
   margin: 30px 10px;
   background: #fff;
 }
-.body-section-padding{
-  margin-bottom: 2%;
-}
+
 /*-------------title-----------*/
 h2{
   font-size: 2em;
@@ -65,66 +63,50 @@ p{
 .padding-5px{
   padding: 5px;
 }
-
 .padding-top-bottom{
   padding-top: 2em;
   padding-bottom: 2em;
 }
-.font-14px{
-  font-size: 14px;
+.padding-bottom-2em{
+  padding-bottom:  2em;
+}
+.padding-top-1em{
+  padding-top: 1em;
 }
 
-.padding-botttom-3-percent{
-  padding-bottom: 3%;
+.no-padding{
+  padding: 0;
 }
+
 
 /*----------------- COMMON CLASS END --------------------*/
 
 
 /*----------------- NAVBAR -----------------*/
 .header-padding{
-  padding-top: .3125rem;
-  padding-bottom: .3125rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 .header-title{
-  font-size: 3em;
+  font-size: 2em;
 }
 /*----------------- NAVBAR END --------------------*/
 
-/*----------------- FOOTER -----------------*/
 
-.footer-padding{
-  padding-top: 1.3rem;
-  padding-bottom: 1.2rem;
-  font-size: 15px;
+/* --------------Loader Container ---------------*/
+.loader-container{
+  margin-top: 30vh;
 }
-
-.footer-font-size{
-  font-size: 1.5em;
+.loader-image-margin{
+  margin-left: 8%;
 }
-
-.footer-padding a{
-  text-decoration:  none;
-  color: #000;
+@media (max-width: 991.98px) {
+  .loader-image-margin{
+  margin-left: 12%;
 }
-.card-radius{
-  border-radius: 50px;
 }
-
-.footer-bg-image{
-  background-image: url('../images/footer-image.png');
-  background-repeat: no-repeat; 
-  background-size: contain;
-  background-position: center;
-  }
-  .card-opacity{
-    background:rgba(255,255,255,0.6);
-  }
-/*----------------- FOOTER END --------------------*/
-
-
 /*----------------- BANNER PLACE -----------------*/
-.section-padding{
+.banner-section-padding{
   padding-top: 2%;
   /*padding-bottom: 2%;*/
 }
@@ -143,12 +125,8 @@ font-weight: bolder;
   font-size: 1.7em;
 }
 
-.no-padding{
-  padding: 0;
-}
-
 .banner-bg-image{
-  background: url('../images/banner.jpg');
+  background: url('../images/banner-image.jpg');
   background-repeat: no-repeat; 
   background-size: contain;
   background-position: center;
@@ -289,111 +267,12 @@ font-size: 1.2em;
   .section .heading{ padding-bottom: 20px; }
   
 }
-
-.timing-font-size{
-  font-size: 1.5em;
-}
-
-.font-icon-color{
+.w-detail-font-icon-color{
   color: #00BCD4;
   opacity: 0.6;
 }
 
 /*-----------------  WEDDING DETAILS AREA END -----------------*/
-
-
-/*-----------------  WEDDING DETAILS FONT -----------------*/
-
-
-[data-icon]:before {
-  font-family: "untitled-font-1" !important;
-  content: attr(data-icon);
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-[class^="icon-"]:before,
-[class*=" icon-"]:before {
-  font-family: "untitled-font-1" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-home:before {
-  content: "\61";
-}
-.icon-email-plane:before {
-  content: "\63";
-}
-.icon-cake:before {
-  content: "\62";
-}
-.icon-camera:before {
-  content: "\64";
-}
-.icon-ciurclke:before {
-  content: "\65";
-}
-.icon-star:before {
-  content: "\66";
-}
-.icon-heart:before {
-  content: "\67";
-}
-.icon-tie:before {
-  content: "\68";
-}
-.icon-wine-glass:before {
-  content: "\69";
-}
-.icon-facebook:before {
-  content: "\6a";
-}
-.icon-twitter:before {
-  content: "\6b";
-}
-.icon-instagram:before {
-  content: "\6c";
-}
-.icon-tripadvisor:before {
-  content: "\6d";
-}
-.icon-pinterest:before {
-  content: "\6e";
-}
-.icon-caret-down:before {
-  content: "\6f";
-}
-.icon-caret-right:before {
-  content: "\70";
-}
-.icon-bars:before {
-  content: "\71";
-}
-.icon-quote:before {
-  content: "\72";
-}
-.icon-right-open-big:before {
-  content: "\73";
-}
-.icon-left-open-big:before {
-  content: "\74";
-}
-
-/*-----------------  WEDDING DETAILS FONT END -----------------*/
-
 
 /*----------------- WELCOME AREA ----------------- */
 
@@ -414,39 +293,39 @@ section{
       width: 100%;
       /*height: 100%;*/
   }
-  .set{
+  .balloon-container{
     position: absolute;
     width: 100%;
     height: 45vh;
     left: 0;
     bottom: 200px;
   }
-  .set div{
+  .balloon-container div{
     position: absolute;
     display: block;
   }
-  .set div:nth-child(1){
+  .balloon-container div:nth-child(1){
     left: 10%;
-    animation: animate 55s linear infinite;
-    animation-delay: -12s;
+    animation: animate 112s linear infinite;
+    animation-delay: -17s;
     
   }
-  .set div:nth-child(2){
+  .balloon-container div:nth-child(2){
     left: 45%;
-    animation: animate 75s linear infinite;
-    animation-delay: -25s;
+    animation: animate 65s linear infinite;
+    animation-delay: -28s;
 
   }
-  .set div:nth-child(3){
+  .balloon-container div:nth-child(3){
     left: 85%;
-    animation: animate 68s linear infinite;
+    animation: animate 82s linear infinite;
   }
   @keyframes animate{
     from {
       bottom: 0;
     }
     to {
-      bottom:1350%;
+      bottom:1400%;
     }
     0%{
       opacity: 0;
@@ -455,55 +334,55 @@ section{
       opacity: 1;
     }
     20%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     25%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     30%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     35%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     40%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     45%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     50%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     55%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     60%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     65%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     70%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     75%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     80%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     85%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     90%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
     95%{
-      transform: translateX(-15px) rotate(-2deg);
+      transform: translateX(-15px) rotate(-3deg);
     }
     100%{
-      transform: translateX(-15px) rotate(2deg);
+      transform: translateX(-15px) rotate(3deg);
     }
   }
 
@@ -513,7 +392,7 @@ section{
 
 /* ---------------- PROFILE CARD AREA ----------------*/
 
-.slide-container {
+.profile-card-container {
   margin: auto;
   width: 600px; 
   text-align: center;
@@ -557,51 +436,26 @@ section{
   top: -28px;
   left: -10px;
 }
-
-/*.clash-card__level {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 3px;
-}
-.clash-card__level--wizard {
-  color: #00BCD4;
-}
-*/
 .profile-card-couple-name {
   font-size: 2em;
   color: black;
   font-weight: 900;
   margin-bottom: 5px;
 }
-.profile-card-description {
-  padding: 10px;
-  margin-bottom: 10px;
-}
 .profile-card-short-description {
   font-size: 1em
 }
 
-.profile-card-title-font{
-  font-size: 1.7em;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 3px;
-  color: #00BCD4;
-}
-
-
-
 /* ---------------- PROFILE CARD AREA END----------------*/
 
+/*-------------Map Container -------------*/
 .map-area{
   margin-bottom: 12em;
 }
 
 /*--------------- CONTACT DETAILS --------------- */
 .padding-top-bottom-px{
-  padding: 5px 0;
+  padding: 10px 0;
 }
 .footer-contact-font-size{
   font-size: 1.4em;
@@ -615,11 +469,48 @@ section{
 /* ---------------- CONTACT DETAILS END----------------*/
 
 
+/*----------------- FOOTER -----------------*/
+
+.footer-padding{
+  padding-top: 1.3rem;
+  padding-bottom: 1.2rem;
+  font-size: 15px;
+}
+
+.footer-font-size{
+  font-size: 1.5em;
+}
+
+.footer-padding a{
+  text-decoration:  none;
+  color: #000;
+}
+.card-radius{
+  border-radius: 50px;
+}
+
+.footer-bg-image{
+  background-image: url('../images/footer-image.png');
+  background-repeat: no-repeat; 
+  background-size: contain;
+  background-position: center;
+  }
+  .card-opacity{
+    background:rgba(255,255,255,0.6);
+  }
+  .footer-rasigan-font{
+    font-size: 1.9em;
+  }
+  .footer-container-padding{
+    padding-top: 10em;
+    padding-bottom: 1.7em;
+  }
+/*----------------- FOOTER END --------------------*/
 
 /*===========================================================================*/
 
 
-/* ---------------- MOBILE VIEW  ---------------- */
+/* ----------------------------------------------- MOBILE VIEW  --------------------------------------------------- */
 
 
 @media (max-width: 991.98px) {
@@ -694,7 +585,7 @@ font-size: 1.7em;
 
   /*------------------Balloon Animation-----------------*/
 
-.set{
+.balloon-container{
     position: absolute;
     width: 100%;
     height: 30vh;
@@ -706,13 +597,13 @@ font-size: 1.7em;
       bottom: 0;
     }
     to {
-      bottom:1590%;
+      bottom:1520%;
     }
   }
 }
   /*------------------Balloon Animation End-----------------*/
 
-/* ---------------- MOBILE VIEW END ----------------*/
+/* ------------------------------------------- MOBILE VIEW END ------------------------------------------------------------*/
 
 
 
@@ -721,7 +612,7 @@ font-size: 1.7em;
 @media (max-width: 767.98px) { 
 
   /*------------------Balloon Animation-----------------*/
-.set{
+.balloon-container{
     position: absolute;
     width: 100%;
     height: 40vh;
