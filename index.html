@@ -9,21 +9,19 @@
     <!-- Css File -->
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <!-- Google Font -->
-   <!-- <link href="https://fonts.googleapis.com/css?family=Alice|Tangerine" rel="stylesheet"> -->
    <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
-   <link href="iconcss/font-icon.css" rel="stylesheet">
 	<!-- Font awesome link -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <!-- Font awesome end -->
+   <!-- Browser tab color in mobile view -->
    <meta name="theme-color" content="#00BCD4" />
    <meta name="msapplication-navbutton-color" content="#00BCD4">
    <meta name="apple-mobile-web-app-status-bar-style" content="#00BCD4">
-   <link rel="icon" type="image/png" href="images/logo.png"/>
-   <!-- <link rel="icon" href="http://example.com/favicon.png"> -->
-
-</head>
+   <!-- Browser tab color end -->
+   <!-- Fav icon -->
+   <link rel="shortcut icon" href="images/fav-icon32.png"  type="image/png">
 	<!-- Countdown-Timer-JavaScript -->
 	<script src="js/countdown.js"></script>
+	<!-- Loader icon script -->
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('#show_content').hide();
@@ -35,22 +33,22 @@
 			})
 		})
 	</script>
-	<!-- ---------------------------- -->
+</head>
     <body>    
 		<div class="container-fluid">
-			<div id="loader_image"  style="top:35%;left:45%;position: fixed;">
-				<img src="images/logo.png" class="img-fluid">
+			<div id="loader_image" class="row justify-content-center">
+				<div class="col-lg-12 loader-container" align="center">
+					<img src="images/loader-logo.png" class="img-fluid loader-image-margin" alt="Logo">
+				</div>
+				<p class="small-heading-shadow font-bold">Rasigan Wedding</p>
 			</div>
 			<div class="body-margin card body-card-shadow" id="show_content">
 				<!-- Header -->
 				<div class="col-lg-12 header-padding" align="center">
-		  			<!-- <a href="#">
-		    		<img src="images/logo/header-logo.png" >
-		  			</a> -->
-		  			<h3 class="header-title small-heading-shadow"><!-- A Rasigan Wedding --></h3>
+		  			<h3 class="header-title small-heading-shadow padding-top-1em">We are no longer two, God has joined us together</h3>
 				</div>
 				<!-- Header end -->
-				<section  class="section-padding">
+				<section  class="banner-section-padding">
 					<!-- Banner name container -->
 					<div class="container-fluid">
 						<div class="section card banner-map-card-shadow card-border-none banner-bg-image img-fluid">
@@ -61,7 +59,7 @@
 											<h2 class="banner-couple-name heading-text-shadow">Umasankar</h2>
 										</div>
 										<div class="col-lg-2">
-											<img id="image-shadow" src="images/holding-hands.png">
+											<img id="image-shadow" src="images/holding-hands.png" alt="Couple Hands">
 										</div>
 										<div class="col-lg-5">
 											<h2 class="banner-couple-name heading-text-shadow">Aarthy</h2>
@@ -79,39 +77,31 @@
 					<!-- Banner name container ends -->
 
 					<!-- Profile Card Area -->
-					<div class="container-fluid" style=" padding-top: 2em;">
+					<div class="container-fluid padding-top-bottom">
 						<div class="row">
 							<div class="col-lg-2"></div>
-							<div class="col-lg-4 slide-container">
+							<div class="col-lg-4 profile-card-container">
 							  	<div class="profile-wrapper">
 							    	<div class="profile-wrapper">
 									    <div class="profile-card wizard">
 									    	<div class="profile-card-image profile-card-bg-image">
-									        	<img src="images/groom-profile.png" />
+									        	<img src="images/groom-profile.png" alt="Groom Profile" />
 									     	</div>
-									      	<!-- <div class="clash-card__level clash-card__level--wizard profile-card-title-font">Groom</div> -->
-									      	<div class="profile-card-couple-name">Umasankar</div>
-									      	<label class="profile-card-short-description">M.Sc (CS & IT)</label>
-									      <!-- 	<div class="profile-card-description  profile-card-title-font">
-									        	<label>Senior Android Developer (Trioangle,Madurai)</label>
-									      	</div> -->
+									      	<div class="profile-card-couple-name heading-text-shadow">T.S. Umasankar</div>
+									      	<p class="profile-card-short-description small-heading-shadow">M.Sc (CS & IT)</p>
 		   								</div>
 									</div>
 								</div>
 							</div>
-							<div class="col-lg-4 slide-container">
+							<div class="col-lg-4 profile-card-container">
 							  	<div class="profile-wrapper">
 							    	<div class="profile-wrapper">
 									    <div class="profile-card wizard">
 									    	<div class="profile-card-image profile-card-bg-image">
-									        	<img src="images/bride-profile.png" />
+									        	<img src="images/bride-profile.png" alt="Bride Profile" />
 									     	</div>	
-									      	<!-- <div class="clash-card__level clash-card__level--wizard profile-card-title-font">Bride</div> -->
-									      	<div class="profile-card-couple-name">Aarthy</div>
-									      	<label class="profile-card-short-description">B.Sc (CS)</label>
-									      	<!-- <div class="clash-card__unit-description profile-card-title-font">
-									        	<label>Senior Android Developer (Trioangle,Madurai)</label>
-									      	</div> -->
+									      	<div class="profile-card-couple-name heading-text-shadow">P.J. Aarthy</div>
+									      	<p class="profile-card-short-description small-heading-shadow">B.Sc (CS)</p>
 		   								</div>
 									</div>
 								</div>
@@ -137,7 +127,7 @@
 					                        <div class="counter-smalltext">Hours</div>
 					                    </div>
 					                    <div class="col counter-img">
-					                    	<img id="image-shadow" src="images/timer-couple.png" alt="">
+					                    	<img id="image-shadow" src="images/timer-couple.png" alt="Wedding Couple">
 					                    </div>
 					                    <div class="col counter-clockinner counter-clock-shadow">
 					                        <span class="minutes heading-text-shadow" id="event_minutes"></span>
@@ -148,7 +138,19 @@
 					                        <div class="counter-smalltext">Seconds</div>
 					                    </div>					                   
 					                </div>
-					                <div id="event_completed" hidden="hidden">Event Successfully Completed</div>
+					                <div id="event_completed" hidden="hidden">
+					                	<div class="row no-padding" align="center">
+											<div class="col-lg-12">
+												 <div class="col counter-img">
+					                    			<img id="image-shadow" src="images/timer-couple.png" alt="Wedding Couple">
+					                    		</div>
+					                    		<div class="padding-top-bottom">
+													<p class="heading-text-shadow">Got Married, Started a new fantastic journey.</p>
+													<label class="font-bold">A Happy Marriage is the Union of Two Forgivers</label>
+												</div>
+											</div>
+										</div>
+					                </div>
 								</div>
 							</div>
 						</div>	
@@ -166,68 +168,62 @@
 									</div>
 									<div class="wedding-details margin-bottom">
 										<div class="w-detail right ">
-											<!-- <i class="icon icon-ciurclke"></i> -->
-											<img src="images/heart-icon.png" class="img-fluid" height="50" width="50">
+											<img src="images/reception-icon.png" class="img-fluid" height="50" width="50" alt="Reception Icon">
 											<h4 class="title small-heading-shadow">RECEPTION</h4>
-											<div class="row">
-												<p class="col-lg-1 col-1"><i class="fa fa-calendar-o font-icon-color" aria-hidden="true"></i></p>
+											<div class="row" style="margin-left: 2.5%">
+												<p class="col-lg-1 col-1"><i class="fa fa-calendar-o w-detail-font-icon-color" aria-hidden="true"></i></p>
 												<p class="col-lg-10 col-10"> 14 Thursday</p>
 											</div>
-											<div class="row">
-												<p class="col-lg-1 col-1"><i class="fa fa-calendar-o font-icon-color" aria-hidden="true"></i></p>
+											<div class="row" style="margin-left: 2.5%">
+												<p class="col-lg-1 col-1"><i class="fa fa-calendar-o w-detail-font-icon-color" aria-hidden="true"></i></p>
 												<p class="col-lg-10 col-10">FEBRUARY 2019</p>
 											</div>
-											<div class="row">
-												<p class="col-lg-1 col-1"><i class="fa fa-hourglass-half font-icon-color" aria-hidden="true"></i></p>
+											<div class="row" style="margin-left: 2.5%">
+												<p class="col-lg-1 col-1"><i class="fa fa-hourglass-half w-detail-font-icon-color" aria-hidden="true"></i></p>
 												<p class="col-lg-10 col-10">6:00 PM to 9:00 PM</p>
 											</div>
-											
-											<!-- <label class="timing-font-size font-bold"><i class="fa fa-hourglass-half font-icon-color" aria-hidden="true"></i>  &nbsp;6:00 PM to 9:00 PM</label> -->
 										</div>
 
 										<div class="w-detail left">
-											<img src="images/wedding-icon.png" class="img-fluid" height="50" width="50">
-											<!-- <i class="icon icon-heart"></i> -->
+											<img src="images/wedding-icon.png" class="img-fluid" height="50" width="50" >
 											<h4 class="title small-heading-shadow">MUHURTHAM</h4>
 											<div class="row">
 												<p class="col-lg-10 col-md-10 col-10">15 Friday</p>
-												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-calendar-o font-icon-color" aria-hidden="true"></i></p>
+												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-calendar-o w-detail-font-icon-color" aria-hidden="true"></i></p>
 											</div>
 											<div class="row">
 												<p class="col-lg-10 col-md-10 col-10">FEBRUARY 2019</p>
-												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-calendar-o font-icon-color" aria-hidden="true"></i></p>
+												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-calendar-o w-detail-font-icon-color" aria-hidden="true"></i></p>
 											</div>
 											<div class="row">
 												<p class="col-lg-10 col-md-10 col-10">8:00 AM to 9:30 AM</p>
-												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-hourglass-half font-icon-color" aria-hidden="true"></i></p>
+												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-hourglass-half w-detail-font-icon-color" aria-hidden="true"></i></p>
 											</div>
 										</div>
 											
 										<div class="w-detail right ">
-											<img src="images/wedding-hall-icon.png" class="img-fluid" height="50" width="50">
-											<!-- <i class="icon fa fa-location-arrow" aria-hidden="true"></i> -->
+											<img src="images/location-icon.png" class="img-fluid" height="50" width="50">
 											<h4 class="title small-heading-shadow">GROOM WEDDING HALL</h4>
-											<div class="row">
-												<p class="col-lg-1 col-1"><i class="fa fa-map-signs font-icon-color" aria-hidden="true"></i></p>
+											<div class="row" style="margin-left: 2.5%">
+												<p class="col-lg-1 col-1"><i class="fa fa-map-signs w-detail-font-icon-color" aria-hidden="true"></i></p>
 												<p class="col-lg-10 col-10">Nagarathinam Angalammal Wedding Hall</p>
 											</div>
-											<div class="row">
-												<p class="col-lg-1 col-1"><i class="fa fa-map-marker font-icon-color" aria-hidden="true"></i></p>
+											<div class="row" style="margin-left: 2.5%">
+												<p class="col-lg-1 col-1"><i class="fa fa-map-marker w-detail-font-icon-color" aria-hidden="true"></i></p>
 												<p class="col-lg-10 col-10">Villapuram Madurai</p>
 											</div>
 										</div>
 										
 										<div class="w-detail left ">
-											<img src="images/wedding-hall-icon.png" class="img-fluid" height="50" width="50">
-											<!-- <i class="icon fa fa-location-arrow" aria-hidden="true"></i> -->
+											<img src="images/location-icon.png" class="img-fluid" height="50" width="50">
 											<h4 class="title small-heading-shadow">BRIDE WEDDING HALL</h4>
 											<div class="row">
 												<p class="col-lg-10 col-md-10 col-10">Puthu Soorakudi Wedding Hall </p>
-												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-map-signs font-icon-color" aria-hidden="true"></i></p>
+												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-map-signs w-detail-font-icon-color" aria-hidden="true"></i></p>
 											</div>
 											<div class="row">
 												<p class="col-lg-10 col-md-10 col-10">Villapuram Madurai</p>
-												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-map-marker font-icon-color font-icon-color" aria-hidden="true"></i></p>
+												<p class="col-lg-1 col-md-1 col-1"><i class="fa fa-map-marker w-detail-font-icon-color" aria-hidden="true"></i></p>
 											</div>
 										</div>
 									</div>
@@ -238,15 +234,14 @@
 					<!--Wedding Details ends -->
 
 					<!-- Wedding Invite area -->
-					<div class="container-fluid margin-top-3-percent padding-top-bottom">
-						<div class="card banner-map-card-shadow card-border-none welcome-image-bg">
+					<div class="container-fluid margin-top-3-percent padding-top-bottom" >
+						<div class="card banner-map-card-shadow card-border-none">
 							<div class="card-body">
 								<div class="container">
-									<div class="col-lg-12 " align="center">
-										<!-- <img src="images/welcome-hand.png" class="img-fluid" style="height: 250px"> -->
-										<h4 class="font-bold padding-5px small-heading-shadow">You Are Most Welcome</h4>
+									<div class="col-lg-12 padding-bottom-2em" align="center">
 										<p class="margin-top-3-percent">We <b>Umasankar & Aarthy</b> are stepping into a new beginning of wedding life.</p>
 										<p class="margin-top-3-percent">Together with our parents, All our need is your presence.</p>
+										<h1 class="font-bold small-heading-shadow padding-top-bottom">You Are Most Welcome</h1>
 									</div>
 								</div>
 							</div>
@@ -260,10 +255,12 @@
 							<div class="col-lg-6 margin-top-3-percent">
 								<div class="card banner-map-card-shadow">
 									 <div class="card-body">
-									 	<h2 class="title small-heading-shadow padding-5px">Groom Wedding Hall</h2>
+									 	<div class="col-lg-8 padding-bottom-2em">
+									 		<h2 class="title small-heading-shadow padding-5px banner-map-card-shadow card card-radius">Groom Wedding Hall</h2>
+									 	</div>
 					    				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d245.64963489081316!2d78.12050745480771!3d9.901092354602191!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c5653925277b%3A0x2489a871a8ba5d87!2sNagarathinam+Angalammal+Thirumana+Mandapam!5e0!3m2!1sen!2sin!4v1546781417587" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-					    				<a href="https://goo.gl/maps/i6DCURUgPtC2" target="_blank">
-			    							<h4 class="margin-top-3-percent small-heading-shadow">Nagarathinam Angalammal</h4>
+					    				<a href="https://goo.gl/maps/SVTpfjnpYf42" target="_blank">
+			    							<h4 class="margin-top-3-percent small-heading-shadow ">Nagarathinam Angalammal</h4>
 			    							<h4 class="small-heading-shadow">Wedding Hall</h4>
 			    							<p>Villapuram, Madurai</p>
 			  							</a>
@@ -273,11 +270,13 @@
 							<div class="col-lg-6 margin-top-3-percent">
 								<div class="card banner-map-card-shadow">
 									 <div class="card-body">
-									 	<h2 class="title small-heading-shadow padding-5px">Bride Wedding Hall</h2>
+									 	<div class="col-lg-8 padding-bottom-2em">
+									 		<h2 class="title small-heading-shadow padding-5px banner-map-card-shadow card card-radius">Bride Wedding Hall</h2>
+									 	</div>
 					    				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d245.65063098068657!2d78.12023436058011!3d9.89976122575888!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00c565a77866bb%3A0x18afa35cd3a32890!2sPuthu+Surangudi+Marriage+Hall!5e0!3m2!1sen!2sin!4v1547574225978" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-					    				<a href="https://goo.gl/maps/i6DCURUgPtC2" target="_blank">
-			    							<h4 class="margin-top-3-percent small-heading-shadow">Puthu Soorakudi</h4>
-			    							<h4 class="small-heading-shadow">Wedding Hall</h4>
+					    				<a href="https://goo.gl/maps/XCAn4ZnNK3N2" target="_blank">
+			    							<h4 class="margin-top-3-percent small-heading-shadow ">Puthu Soorakudi</h4>
+			    							<h4 class="small-heading-shadow ">Wedding Hall</h4>
 			    							<p>Villapuram, Madurai</p>
 			  							</a>
 									</div> 
@@ -288,24 +287,17 @@
 					<!-- Map container ends -->
 
 					<!-- Footer -->					
-					<!-- <div align="center" class="col-lg-12" >
-						<img src="images/footer-image.png" class="img-fluid" width="100%">
-					</div> -->
-					<div class="footer-bg-image justify-content-center" style="padding-top: 10em;padding-bottom: 1em">
+					<div class="footer-bg-image justify-content-center footer-container-padding">
 						<div class="row justify-content-center">
-							<div class="col-lg-6 col-7 footer-padding">
-								<div class="card card-radius banner-map-card-shadow padding-5px card-opacity">
+							<div class="col-lg-6 col-10 footer-padding ">
+								<div class="card card-radius banner-map-card-shadow card-opacity">
 					    			<div align="center">
-					    				<img src="images/logo.png" height="50"><span class="footer-font-size font-bold small-heading-shadow"> Rasigan Fashion Designer and Advisor</span>
+					    				<img src="images/footer-logo.png" style="margin-bottom: 28px"><span class="footer-font-size font-bold small-heading-shadow"><span class="footer-rasigan-font"> Rasigan</span> Fashion Designer and Advisor</span>
 					    			</div>
-					    			<!-- <div >
-					    				<p class="small-heading-shadow" style="margin-bottom:  0">Fashion Designer and Advisor</p>
-					    			</div> -->
 				    			</div>		    			
 							</div>
 							<div class="container">
 			    				<div class="row" id="footer_contact_details">
-			    					<!-- <div class="col-lg-3"></div> -->
 			    					<div class="col-lg-4 col-md-4 col-4" align="center">
 			    						<a href="https://www.facebook.com/umasankarrasigan" target="_blank">
 						    			   <div class="card banner-map-card-shadow card-radius padding-top-bottom-px card-opacity">
@@ -313,8 +305,8 @@
 						    			   </div>
 					    			   </a>			    			   
 				    				</div>
-				    				<div class="col-lg-4 col-md-4 col-4" align="center">
-					    			   	<a href="https://mail.google.com/mail/?view=cm&fs=1&to=umasankar.tsj@gmail.com" target="_blank">
+				    				<div class="col-lg-4 col-md-4 col-4" align="center">				    					 
+					    			   	<a href = "mailto:umasankar.tsj@gmail.com" target="_blank">
 						    			   <div class="card banner-map-card-shadow card-radius padding-top-bottom-px card-opacity">
 						    			   		<p class="font-bold small-heading-shadow footer-contact-font-size"><i class="fa fa-envelope" aria-hidden="true"></i> Email</p>
 						    			   </div>
@@ -325,7 +317,6 @@
 					    			   	<p class="font-bold small-heading-shadow footer-contact-font-size"><i class="fa fa-mobile" aria-hidden="true"></i> 8807527642</p>
 					    			   </div>
 				    				</div>
-				    				<!-- <div class="col-lg-3"></div> -->
 			    				</div>
 							</div>
 						</div>
@@ -333,7 +324,7 @@
 					<!-- Footer ends-->
 
 					<!-- Balloon Animation -->
-					<div class="set" style="z-index: 1000">
+					<div class="balloon-container" style="z-index: 1000">
 						<div><img src="images/yellow-balloon.png"></div>
 						<div><img src="images/violet-balloon.png"></div>
 						<div><img src="images/red-balloon.png"></div>
@@ -344,19 +335,3 @@
 		</div>		
     </body>    
 </html>
-
-
-<!-- <script type="text/javascript">
-		$(document).ready(function(){
-			$('#show_content').hide();
-			$(window).on({
-				load: function(){
-					setTimeout( function() {
-    					$("#loader_image").hide();
-  					}, 4000 );
-					// $('#loader_image').hide();
-					$('#show_content').show();
-				}
-			})
-		})
-	</script> -->
