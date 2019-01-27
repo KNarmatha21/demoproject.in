@@ -19,8 +19,7 @@ var x = setInterval(function(){
   event_days.innerHTML = days
   event_hours.innerHTML = hours 
   event_minutes.innerHTML = minutes 
-  event_seconds.innerHTML = seconds 
-         
+  event_seconds.innerHTML = seconds          
   // If the count down is over, write some text
   if(distance < 0){
     clearInterval(x);
