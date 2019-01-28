@@ -307,19 +307,19 @@ section{
   }
   .balloon-container div:nth-child(1){
     left: 10%;
-    animation: animate 112s linear infinite;
+    animation: animate 192s linear infinite;
     animation-delay: -17s;
     
   }
   .balloon-container div:nth-child(2){
     left: 45%;
-    animation: animate 65s linear infinite;
+    animation: animate 115s linear infinite;
     animation-delay: -28s;
 
   }
   .balloon-container div:nth-child(3){
     left: 85%;
-    animation: animate 82s linear infinite;
+    animation: animate 142s linear infinite;
   }
   @keyframes animate{
     from {
