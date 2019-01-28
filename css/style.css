@@ -326,7 +326,7 @@ section{
       bottom: 0;
     }
     to {
-      bottom:3080%;
+      bottom:3480%;
     }
     0%{
       opacity: 0;
@@ -602,7 +602,7 @@ font-size: 1.8em;
       bottom: 0;
     }
     to {
-      bottom:2350%;
+      bottom:2380%;
     }
   }
 }
