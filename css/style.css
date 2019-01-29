@@ -278,7 +278,7 @@ font-size: 1.2em;
 /*----------------- WELCOME AREA ----------------- */
 
  .welcome-image-bg{
-  background: url('../images/welcome-bg.png');
+  background: url('../images/welcome-bg.jpg');
   background-repeat: no-repeat; 
   background-size: contain;
   background-position: center;
@@ -507,6 +507,9 @@ section{
     padding-top: 7em;
     padding-bottom: 1.7em;
   }
+  .footer-logo-margin{
+  margin-bottom: 10px !important;
+}
 /*----------------- FOOTER END --------------------*/
 
 /*===========================================================================*/
@@ -583,9 +586,15 @@ font-size: 1.8em;
 .footer-font-size{
   font-size: 1.8em;
 }
-.footer-rasigan-card{
-  margin-bottom: 23px;
+.footer-card-logo{
+  height: 50px;
 }
+.footer-logo-margin{
+  padding-bottom: 12px !important;
+}
+.footer-rasigan-font{
+    font-size: 1.6em;
+  }
 /*----------------Footer Font End ---------------*/
 
   /*------------------Balloon Animation-----------------*/
