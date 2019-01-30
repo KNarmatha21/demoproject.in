@@ -113,6 +113,11 @@ p{
 .banner-couple-name{
 font-size: 4.5em;
 font-weight: bolder;
+background: -moz-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+  background: -webkit-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+  background: -ms-linear-gradient(0deg, #ca2fff 0%, #8e96f8 55%, #53fff0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner-couple-description{
@@ -480,7 +485,7 @@ section{
 }
 
 .footer-font-size{
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 .footer-padding a{
@@ -509,6 +514,12 @@ section{
   }
   .footer-logo-margin{
   margin-bottom: 10px !important;
+}
+.footer-card-logo{
+  height: 33px;  
+}
+.footer-logo-margin{
+  margin-bottom: 17px !important;
 }
 /*----------------- FOOTER END --------------------*/
 
@@ -570,11 +581,16 @@ h4{
 
 /*-----------------------Wedding Details ----------------------*/
 .wedding-details p{
-font-size: 1.8em;
+font-size: 1.9em;
 }
 
 /*--------------- Wedding details end --------------------------*/
+/* ---------------------------- Welcome Container-----------------*/
 
+#welcome-container p{
+font-size: 1.9em
+}
+/*----------------------------------------------------------------*/
 
 /*----------------Contact Footer-----------------------*/
 .footer-contact-font-size{
