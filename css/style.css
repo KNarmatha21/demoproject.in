@@ -606,7 +606,7 @@ font-size: 1.9em
   height: 43px;
 }
 .footer-logo-margin{
-  margin-bottom: 2px !important;
+  padding-bottom: 10px !important;
 }
 .footer-rasigan-font{
     font-size: 1.6em;
